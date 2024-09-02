@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaiyi EV 配置</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">返回主页</a></li>
+                <li><a href="#about">了解Sherry</a></li>
+                <li><a href="#products">公司产品</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Kaiyi EV 配置</h1>
+        <section>
+            <h2>基本信息</h2>
+            <ul>
+                <li><strong>类别:</strong> Compact SUV</li>
+                <li><strong>能源类型:</strong> Pure Electric</li>
+                <li><strong>电动机:</strong> Pure Electric, 163 HP</li>
+                <li><strong>电动续航 (km, CLTC):</strong> 401</li>
+                <li><strong>充电时间 (小时):</strong> 快充 0.5小时，慢充 8小时</li>
+                <li><strong>最大功率 (kW):</strong> 120 (163 Ps)</li>
+                <li><strong>最大扭矩 (N·m):</strong> 280</li>
+                <li><strong>变速器:</strong> 单速电动车变速器</li>
+                <li><strong>尺寸 (长x宽x高, mm):</strong> 4400x1831x1646</li>
+                <li><strong>车身结构:</strong> 5门5座SUV</li>
+                <li><strong>最高车速 (km/h):</strong> 150</li>
+                <li><strong>能耗 (kWh/100km):</strong> 13.6 kWh</li>
+                <li><strong>车身长度 (mm):</strong> 4400</li>
+                <li><strong>车身宽度 (mm):</strong> 1831</li>
+                <li><strong>车身高度 (mm):</strong> 1646</li>
+                <li><strong>轴距 (mm):</strong> 2632</li>
+                <li><strong>前轮距 (mm):</strong> 1551</li>
+                <li><strong>后轮距 (mm):</strong> 1563</li>
+                <li><strong>车门数量:</strong> 5</li>
+                <li><strong>车门开启方式:</strong> 铰链式车门</li>
+                <li><strong>座位数量:</strong> 5</li>
+                <li><strong>整备质量 (kg):</strong> 1620</li>
+                <li><strong>总重量 (kg):</strong> 1995</li>
+                <li><strong>最小转弯半径 (m):</strong> 5.4</li>
+                <li><strong>电动机描述:</strong> Pure Electric, 163 HP</li>
+                <li><strong>电动机类型:</strong> 永磁/同步</li>
+                <li><strong>总电动机功率 (kW):</strong> 120</li>
+                <li><strong>总电动机马力 (Ps):</strong> 163</li>
+                <li><strong>总电动机扭矩 (N·m):</strong> 280</li>
+                <li><strong>前电动机最大功率 (kW):</strong> 120</li>
+                <li><strong>前电动机最大扭矩 (N·m):</strong> 280</li>
+                <li><strong>电动机数量:</strong> 单电动机</li>
+                <li><strong>电动机布局:</strong> 前置</li>
+                <li><strong>电池类型:</strong> 磷酸铁锂电池</li>
+                <li><strong>电池保修:</strong> 8年或15万公里</li>
+                <li><strong>电池容量 (kWh):</strong> 53.6</li>
+                <li><strong>快充接口位置:</strong> 前标志后面</li>
+                <li><strong>慢充接口位置:</strong> 左侧，油箱位置</li>
+                <li><strong>变速器描述:</strong> 单速电动车变速器</li>
+                <li><strong>变速器类型:</strong> 固定齿比变速器</li>
+                <li><strong>驱动类型:</strong> 前驱</li>
+                <li><strong>前悬挂:</strong> 麦弗逊独立悬挂</li>
+                <li><strong>后悬挂:</strong> 多连杆独立悬挂</li>
+                <li><strong>转向类型:</strong> 电动助力转向</li>
+                <li><strong>车身结构:</strong> 单体式</li>
+                <li><strong>前制动类型:</strong> 通风盘式</li>
+                <li><strong>后制动类型:</strong> 实心盘式</li>
+                <li><strong>驻车制动类型:</strong> 电子驻车制动</li>
+                <li><strong>前轮胎尺寸:</strong> 215/60 R17</li>
+                <li><strong>后轮胎尺寸:</strong> 215/60 R17</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>动力系统</h2>
+            <ul>
+                <li><strong>续航:</strong> 401km</li>
+                <li><strong>电动空调:</strong> ●</li>
+                <li><strong>换挡杆:</strong> ●</li>
+                <li><strong>巡航控制:</strong> ●</li>
+                <li><strong>驾驶模式选择 (ECO/SPORT):</strong> ●</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>底盘</h2>
+            <ul>
+                <li><strong>前麦弗逊独立悬挂:</strong> ●</li>
+                <li><strong>后多连杆独立悬挂:</strong> ●</li>
+                <li><strong>速度感应电动助力转向:</strong> ●</li>
+                <li><strong>ABS + EBD:</strong> ●</li>
+                <li><strong>EBA刹车辅助:</strong> ●</li>
+                <li><strong>HDC坡道缓降控制:</strong> ●</li>
+                <li><strong>HHC坡道保持控制:</strong> ●</li>
+                <li><strong>ESP电子稳定程序:</strong> ●</li>
+                <li><strong>AUTOHOLD自动驻车:</strong> ●</li>
+                <li><strong>EPB电子驻车制动:</strong> ●</li>
+                <li><strong>前通风盘式刹车:</strong> ●</li>
+                <li><strong>后实心盘式刹车:</strong> ●</li>
+                <li><strong>17"铝合金轮圈:</strong> ●</li>
+                <li><strong>18"铝合金轮圈:</strong> —</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>安全配置</h2>
+            <ul>
+                <li><strong>可调前安全带高度:</strong> ●</li>
+                <li><strong>前部三点式安全带（带限力器）:</strong> ●</li>
+                <li><strong>第二排三点式安全带:</strong> ●</li>
+                <li><strong>ISO-FIX儿童座椅固定装置:</strong> ●</li>
+                <li><strong>驾驶员安全带提醒:</strong> ●</li>
+                <li><strong>儿童安全锁:</strong> ●</li>
+                <li><strong>前双气囊:</strong> ●</li>
+                <li><strong>前侧气囊:</strong> —</li>
+                <li><strong>速度感应自动门锁系统:</strong> ●</li>
+                <li><strong>行人警示功能:</strong> ●</li>
+                <li><strong>车道偏离警告 (LDW):</strong> —</li>
+                <li><strong>TPMS胎温胎压监测系统:</strong> ●</li>
+                <li><strong>防盗报警系统:</strong> ●</li>
+                <li><strong>后停车雷达:</strong> ●</li>
+                <li><strong>360°全景摄像头:</strong> —</li>
+                <li><strong>高清行车记录仪:</strong> —</li>
+                <li><strong>倒车影像及动态辅助线:</strong> ●</li>
+                <li><strong>限速提醒:</strong> ●</li>
+                <li><strong>限速设置:</strong> ●</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>外观配置</h2>
+            <ul>
+                <li><strong>电动调节外后视镜:</strong> ●</li>
+                <li><strong>外后视镜集成转向灯:</strong> ●</li>
+                <li><strong>加热外后视镜:</strong> —</li>
+                <li><strong>电动折叠外后视镜（锁车时自动折叠）:</strong> —</li>
+                <li><strong>电动窗户一键下降:</strong> ●</li>
+                <li><strong>防夹电动窗户一键升降:</strong> —</li>
+                <li><strong>后扰流板:</strong> ●</li>
+                <li><strong>车身颜色 (单色/双色):</strong> ○</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>内饰配置</h2>
+            <ul>
+                <li><strong>硬质仪表盘 + 软质饰条:</strong> ●</li>
+                <li><strong>内饰颜色:</strong> 深色内饰</li>
+                <li><strong>织物座椅:</strong> ●</li>
+                <li><strong>仿皮座椅:</strong> —</li>
+                <li><strong>手动6向驾驶员座椅调整:</strong> ●</li>
+                <li><strong>电动6向驾驶员座椅调整:</strong> —</li>
+                <li><strong>手动4向副驾驶座椅调整:</strong> ●</li>
+                <li><strong>60/40分体折叠后排座椅:</strong> ●</li>
+                <li><strong>可调节后排头枕:</strong> ●</li>
+                <li><strong>注塑方向盘:</strong> ●</li>
+                <li><strong>绒面方向盘:</strong> —</li>
+                <li><strong>2向调节方向盘:</strong> ●</li>
+                <li><strong>多功能方向盘:</strong> ●</li>
+                <li><strong>驾驶员遮阳板（带化妆镜）:</strong> ●</li>
+                <li><strong>副驾驶遮阳板（带化妆镜）:</strong> ●</li>
+                <li><strong>手动防眩目内后视镜:</strong> ●</li>
+                <li><strong>前中央扶手:</strong> ●</li>
+                <li><strong>驾驶员脚踏板:</strong> ●</li>
+                <li><strong>无线充电:</strong> —</li>
+                <li><strong>后备厢分隔储物:</strong> —</li>
+                <li><strong>PM2.5过滤器:</strong> ●</li>
+                <li><strong>PM0.3过滤器:</strong> —</li>
+                <li><strong>后备厢备用轮胎储物箱:</strong> ○</li>
+                <li><strong>备用轮胎及工具箱:</strong> ○</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>电气配置</h2>
+            <ul>
+                <li><strong>前无框雨刷:</strong> ●</li>
+                <li><strong>自动雨刷:</strong> —</li>
+                <li><strong>电动天窗:</strong> —</li>
+                <li><strong>全景天窗:</strong> —</li>
+                <li><strong>内置天线:</strong> ●</li>
+                <li><strong>后雾灯:</strong> ●</li>
+                <li><strong>投射卤素前大灯:</strong> ●</li>
+                <li><strong>LED前大灯:</strong> —</li>
+                <li><strong>自动前大灯:</strong> —</li>
+                <li><strong>电动前大灯高度调整:</strong> ●</li>
+                <li><strong>倒车灯:</strong> ●</li>
+                <li><strong>大灯延时关闭:</strong> ●</li>
+                <li><strong>日间行车灯:</strong> —</li>
+                <li><strong>LED高位刹车灯:</strong> ●</li>
+                <li><strong>LED尾灯:</strong> ●</li>
+                <li><strong>LED阅读灯:</strong> ●</li>
+                <li><strong>一键启动:</strong> ●</li>
+                <li><strong>无钥匙进入:</strong> ●</li>
+                <li><strong>7英寸LCD仪表盘:</strong> ●</li>
+                <li><strong>10.25英寸全液晶仪表盘:</strong> —</li>
+                <li><strong>10.25英寸高清触摸屏:</strong> ●</li>
+                <li><strong>蓝牙免提系统:</strong> ●</li>
+                <li><strong>车载WiFi:</strong> —</li>
+                <li><strong>智能云语音控制 (多媒体、导航、电话、空调):</strong> —</li>
+                <li><strong>智能手机镜像 (百度CarLife):</strong> ●</li>
+                <li><strong>两个前USB接口:</strong> ●</li>
+                <li><strong>前12V电源:</strong> ●</li>
+                <li><strong>单个后USB接口:</strong> ●</li>
+                <li><strong>4个扬声器:</strong> ●</li>
+                <li><strong>6个扬声器:</strong> —</li>
+                <li><strong>中央锁:</strong> ●</li>
+                <li><strong>遥控钥匙:</strong> ●</li>
+                <li><strong>遥控后备厢开启:</strong> ●</li>
+                <li><strong>电动后备厢锁:</strong> ●</li>
+                <li><strong>多车组队旅行:</strong> —</li>
+                <li><strong>车辆网络连接:</strong> —</li>
+                <li><strong>实时在线GPS导航:</strong> —</li>
+                <li><strong>全程手机管理:</strong> —</li>
+                <li><strong>OTA更新 (智能连接系统):</strong> —</li>
+                <li><strong>应用程序远程控制:</strong> —</li>
+                <li><strong>ETC车载设备:</strong> ○</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hong Kong Sherry International Co., LTD. All rights reserved.</p>
+    </footer>
+</body>
+</html>
