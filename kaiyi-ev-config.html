@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaiyi EV Configuration</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .section-title {
+            margin-top: 20px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,210 +40,134 @@
     </header>
     <main>
         <h1>Kaiyi EV Configuration</h1>
+        
         <section>
-            <h2>Basic Information</h2>
-            <ul>
-                <li><strong>Category:</strong> Compact SUV</li>
-                <li><strong>Energy Type:</strong> Pure Electric</li>
-                <li><strong>Motor:</strong> Pure Electric, 163 HP</li>
-                <li><strong>Range (km, CLTC):</strong> 401</li>
-                <li><strong>Charging Time (hours):</strong> Fast Charge 0.5 hours, Slow Charge 8 hours</li>
-                <li><strong>Maximum Power (kW):</strong> 120 (163 Ps)</li>
-                <li><strong>Maximum Torque (N·m):</strong> 280</li>
-                <li><strong>Transmission:</strong> Single-speed transmission</li>
-                <li><strong>Dimensions (LxWxH, mm):</strong> 4400x1831x1646</li>
-                <li><strong>Body Structure:</strong> 5-door 5-seater SUV</li>
-                <li><strong>Top Speed (km/h):</strong> 150</li>
-                <li><strong>Energy Consumption (kWh/100km):</strong> 13.6 kWh</li>
-                <li><strong>Body Length (mm):</strong> 4400</li>
-                <li><strong>Body Width (mm):</strong> 1831</li>
-                <li><strong>Body Height (mm):</strong> 1646</li>
-                <li><strong>Wheelbase (mm):</strong> 2632</li>
-                <li><strong>Front Track (mm):</strong> 1551</li>
-                <li><strong>Rear Track (mm):</strong> 1563</li>
-                <li><strong>Number of Doors:</strong> 5</li>
-                <li><strong>Door Opening Method:</strong> Hinged</li>
-                <li><strong>Number of Seats:</strong> 5</li>
-                <li><strong>Curb Weight (kg):</strong> 1620</li>
-                <li><strong>Gross Weight (kg):</strong> 1995</li>
-                <li><strong>Minimum Turning Radius (m):</strong> 5.4</li>
-                <li><strong>Motor Description:</strong> Pure Electric, 163 HP</li>
-                <li><strong>Motor Type:</strong> Permanent Magnet/Synchronous</li>
-                <li><strong>Total Motor Power (kW):</strong> 120</li>
-                <li><strong>Total Motor Power (Ps):</strong> 163</li>
-                <li><strong>Total Motor Torque (N·m):</strong> 280</li>
-                <li><strong>Front Motor Maximum Power (kW):</strong> 120</li>
-                <li><strong>Front Motor Maximum Torque (N·m):</strong> 280</li>
-                <li><strong>Number of Motors:</strong> Single Motor</li>
-                <li><strong>Motor Layout:</strong> Front</li>
-                <li><strong>Battery Type:</strong> Lithium Iron Phosphate</li>
-                <li><strong>Battery Warranty:</strong> 8 years or 150,000 km</li>
-                <li><strong>Battery Capacity (kWh):</strong> 53.6</li>
-                <li><strong>Fast Charging Port Location:</strong> Behind front emblem</li>
-                <li><strong>Slow Charging Port Location:</strong> Left side, fuel tank position</li>
-                <li><strong>Transmission Description:</strong> Single-speed transmission</li>
-                <li><strong>Transmission Type:</strong> Fixed Gear Ratio</li>
-                <li><strong>Drive Type:</strong> Front-wheel drive</li>
-                <li><strong>Front Suspension:</strong> MacPherson Independent</li>
-                <li><strong>Rear Suspension:</strong> Multi-link Independent</li>
-                <li><strong>Steering Type:</strong> Electric Power Steering</li>
-                <li><strong>Body Structure:</strong> Monocoque</li>
-                <li><strong>Front Brake Type:</strong> Ventilated Disc</li>
-                <li><strong>Rear Brake Type:</strong> Solid Disc</li>
-                <li><strong>Parking Brake Type:</strong> Electronic Parking Brake</li>
-                <li><strong>Front Tire Size:</strong> 215/60 R17</li>
-                <li><strong>Rear Tire Size:</strong> 215/60 R17</li>
-            </ul>
+            <h2 class="section-title">Basic Information</h2>
+            <table>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Value</th>
+                </tr>
+                <tr><td>Category</td><td>Compact SUV</td></tr>
+                <tr><td>Energy Type</td><td>Pure Electric</td></tr>
+                <tr><td>Motor</td><td>Pure Electric, 163 HP</td></tr>
+                <tr><td>Range (km, CLTC)</td><td>401</td></tr>
+                <tr><td>Charging Time (hours)</td><td>Fast Charge 0.5 hours, Slow Charge 8 hours</td></tr>
+                <tr><td>Maximum Power (kW)</td><td>120 (163 Ps)</td></tr>
+                <tr><td>Maximum Torque (N·m)</td><td>280</td></tr>
+                <tr><td>Transmission</td><td>Single-speed transmission</td></tr>
+                <tr><td>Dimensions (LxWxH, mm)</td><td>4400x1831x1646</td></tr>
+                <tr><td>Body Structure</td><td>5-door 5-seater SUV</td></tr>
+                <tr><td>Top Speed (km/h)</td><td>150</td></tr>
+                <tr><td>Energy Consumption (kWh/100km)</td><td>13.6 kWh</td></tr>
+                <tr><td>Body Length (mm)</td><td>4400</td></tr>
+                <tr><td>Body Width (mm)</td><td>1831</td></tr>
+                <tr><td>Body Height (mm)</td><td>1646</td></tr>
+                <tr><td>Wheelbase (mm)</td><td>2632</td></tr>
+                <tr><td>Front Track (mm)</td><td>1551</td></tr>
+                <tr><td>Rear Track (mm)</td><td>1563</td></tr>
+                <tr><td>Number of Doors</td><td>5</td></tr>
+                <tr><td>Door Opening Method</td><td>Hinged</td></tr>
+                <tr><td>Number of Seats</td><td>5</td></tr>
+                <tr><td>Curb Weight (kg)</td><td>1620</td></tr>
+                <tr><td>Gross Weight (kg)</td><td>1995</td></tr>
+                <tr><td>Minimum Turning Radius (m)</td><td>5.4</td></tr>
+                <tr><td>Motor Description</td><td>Pure Electric, 163 HP</td></tr>
+                <tr><td>Motor Type</td><td>Permanent Magnet/Synchronous</td></tr>
+                <tr><td>Total Motor Power (kW)</td><td>120</td></tr>
+                <tr><td>Total Motor Power (Ps)</td><td>163</td></tr>
+                <tr><td>Total Motor Torque (N·m)</td><td>280</td></tr>
+                <tr><td>Front Motor Maximum Power (kW)</td><td>120</td></tr>
+                <tr><td>Front Motor Maximum Torque (N·m)</td><td>280</td></tr>
+                <tr><td>Number of Motors</td><td>Single Motor</td></tr>
+                <tr><td>Motor Layout</td><td>Front</td></tr>
+                <tr><td>Battery Type</td><td>Lithium Iron Phosphate</td></tr>
+                <tr><td>Battery Warranty</td><td>8 years or 150,000 km</td></tr>
+                <tr><td>Battery Capacity (kWh)</td><td>53.6</td></tr>
+                <tr><td>Fast Charging Port Location</td><td>Behind front emblem</td></tr>
+                <tr><td>Slow Charging Port Location</td><td>Left side, fuel tank position</td></tr>
+                <tr><td>Transmission Description</td><td>Single-speed transmission</td></tr>
+                <tr><td>Transmission Type</td><td>Fixed Gear Ratio</td></tr>
+                <tr><td>Drive Type</td><td>Front-wheel drive</td></tr>
+                <tr><td>Front Suspension</td><td>MacPherson Independent</td></tr>
+                <tr><td>Rear Suspension</td><td>Multi-link Independent</td></tr>
+                <tr><td>Steering Type</td><td>Electric Power Steering</td></tr>
+                <tr><td>Body Structure</td><td>Monocoque</td></tr>
+                <tr><td>Front Brake Type</td><td>Ventilated Disc</td></tr>
+                <tr><td>Rear Brake Type</td><td>Solid Disc</td></tr>
+                <tr><td>Parking Brake Type</td><td>Electronic Parking Brake</td></tr>
+                <tr><td>Front Tire Size</td><td>215/60 R17</td></tr>
+                <tr><td>Rear Tire Size</td><td>215/60 R17</td></tr>
+            </table>
         </section>
 
         <section>
-            <h2>Power System</h2>
-            <ul>
-                <li><strong>Range:</strong> 401 km</li>
-                <li><strong>Electric Air Conditioning:</strong> ●</li>
-                <li><strong>Gear Shift Lever:</strong> ●</li>
-                <li><strong>Cruise Control:</strong> ●</li>
-                <li><strong>Drive Mode Selection (ECO/SPORT):</strong> ●</li>
-            </ul>
+            <h2 class="section-title">Power System</h2>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Availability</th>
+                </tr>
+                <tr><td>Range</td><td>401 km</td></tr>
+                <tr><td>Electric Air Conditioning</td><td>●</td></tr>
+                <tr><td>Gear Shift Lever</td><td>●</td></tr>
+                <tr><td>Cruise Control</td><td>●</td></tr>
+                <tr><td>Drive Mode Selection (ECO/SPORT)</td><td>●</td></tr>
+            </table>
         </section>
 
         <section>
-            <h2>Chassis</h2>
-            <ul>
-                <li><strong>Front MacPherson Independent Suspension:</strong> ●</li>
-                <li><strong>Rear Multi-link Independent Suspension:</strong> ●</li>
-                <li><strong>Speed-sensing Electric Power Steering:</strong> ●</li>
-                <li><strong>ABS + EBD:</strong> ●</li>
-                <li><strong>EBA Brake Assist:</strong> ●</li>
-                <li><strong>HDC Hill Descent Control:</strong> ●</li>
-                <li><strong>HHC Hill Hold Control:</strong> ●</li>
-                <li><strong>ESP Electronic Stability Program:</strong> ●</li>
-                <li><strong>AUTOHOLD Automatic Parking Brake:</strong> ●</li>
-                <li><strong>EPB Electronic Parking Brake:</strong> ●</li>
-                <li><strong>Front Ventilated Disc Brakes:</strong> ●</li>
-                <li><strong>Rear Solid Disc Brakes:</strong> ●</li>
-                <li><strong>17" Alloy Wheels:</strong> ●</li>
-                <li><strong>18" Alloy Wheels:</strong> —</li>
-            </ul>
+            <h2 class="section-title">Chassis</h2>
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>Availability</th>
+                </tr>
+                <tr><td>Front MacPherson Independent Suspension</td><td>●</td></tr>
+                <tr><td>Rear Multi-link Independent Suspension</td><td>●</td></tr>
+                <tr><td>Speed-sensing Electric Power Steering</td><td>●</td></tr>
+                <tr><td>ABS + EBD</td><td>●</td></tr>
+                <tr><td>EBA Brake Assist</td><td>●</td></tr>
+                <tr><td>HDC Hill Descent Control</td><td>●</td></tr>
+                <tr><td>HHC Hill Hold Control</td><td>●</td></tr>
+                <tr><td>ESP Electronic Stability Program</td><td>●</td></tr>
+                <tr><td>AUTOHOLD Automatic Parking Brake</td><td>●</td></tr>
+                <tr><td>EPB Electronic Parking Brake</td><td>●</td></tr>
+                <tr><td>Front Ventilated Disc Brakes</td><td>●</td></tr>
+                <tr><td>Rear Solid Disc Brakes</td><td>●</td></tr>
+                <tr><td>17" Alloy Wheels</td><td>●</td></tr>
+                <tr><td>215/60 R17 Tires</td><td>●</td></tr>
+            </table>
         </section>
 
         <section>
-            <h2>Safety Features</h2>
-            <ul>
-                <li><strong>Adjustable Front Safety Belt Height:</strong> ●</li>
-                <li><strong>Front Three-point Safety Belts (with Load Limiter):</strong> ●</li>
-                <li><strong>Second Row Three-point Safety Belts:</strong> ●</li>
-                <li><strong>ISO-FIX Child Seat Anchors:</strong> ●</li>
-                <li><strong>Driver Safety Belt Reminder:</strong> ●</li>
-                <li><strong>Child Safety Locks:</strong> ●</li>
-                <li><strong>Front Airbags:</strong> ●</li>
-                <li><strong>Front Side Airbags:</strong> —</li>
-                <li><strong>Speed-sensing Auto Lock System:</strong> ●</li>
-                <li><strong>Pedestrian Warning Function:</strong> ●</li>
-                <li><strong>Lane Departure Warning (LDW):</strong> —</li>
-                <li><strong>TPMS Tire Pressure Monitoring System:</strong> ●</li>
-                <li><strong>Anti-theft Alarm System:</strong> ●</li>
-                <li><strong>Rear Parking Sensors:</strong> ●</li>
-                <li><strong>360° Surround Camera:</strong> —</li>
-                <li><strong>High-definition Dashcam:</strong> —</li>
-                <li><strong>Reversing Camera with Dynamic Guidelines:</strong> ●</li>
-                <li><strong>Speed Limit Reminder:</strong> ●</li>
-                <li><strong>Speed Limit Setting:</strong> ●</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Exterior Features</h2>
-            <ul>
-                <li><strong>Power-adjustable External Mirrors:</strong> ●</li>
-                <li><strong>External Mirrors with Integrated Turn Signals:</strong> ●</li>
-                <li><strong>Heated External Mirrors:</strong> —</li>
-                <li><strong>Power-folding External Mirrors (Auto-fold when Locked):</strong> —</li>
-                <li><strong>Power Windows with One-touch Down:</strong> ●</li>
-                <li><strong>Power Windows with One-touch Up (Anti-pinch):</strong> —</li>
-                <li><strong>Rear Spoiler:</strong> ●</li>
-                <li><strong>Body Color (Single-tone/Two-tone):</strong> ○</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Interior Features</h2>
-            <ul>
-                <li><strong>Hard Dashboard + Soft Trim:</strong> ●</li>
-                <li><strong>Interior Color:</strong> Dark</li>
-                <li><strong>Fabric Seats:</strong> ●</li>
-                <li><strong>Imitation Leather Seats:</strong> —</li>
-                <li><strong>Manual 6-way Driver Seat Adjustment:</strong> ●</li>
-                <li><strong>Electric 6-way Driver Seat Adjustment:</strong> —</li>
-                <li><strong>Manual 4-way Passenger Seat Adjustment:</strong> ●</li>
-                <li><strong>60/40 Split-folding Rear Seats:</strong> ●</li>
-                <li><strong>Adjustable Rear Headrests:</strong> ●</li>
-                <li><strong>Injection-molded Steering Wheel:</strong> ●</li>
-                <li><strong>Suede Steering Wheel:</strong> —</li>
-                <li><strong>2-way Adjustable Steering Wheel:</strong> ●</li>
-                <li><strong>Multifunction Steering Wheel:</strong> ●</li>
-                <li><strong>Driver Sunvisor (with Vanity Mirror):</strong> ●</li>
-                <li><strong>Passenger Sunvisor (with Vanity Mirror):</strong> ●</li>
-                <li><strong>Manual Anti-glare Rearview Mirror:</strong> ●</li>
-                <li><strong>Front Central Armrest:</strong> ●</li>
-                <li><strong>Driver's Footrest:</strong> ●</li>
-                <li><strong>Wireless Charging:</strong> —</li>
-                <li><strong>Rear Cargo Partition:</strong> —</li>
-                <li><strong>PM2.5 Filter:</strong> ●</li>
-                <li><strong>PM0.3 Filter:</strong> —</li>
-                <li><strong>Spare Tire Storage in Trunk:</strong> ○</li>
-                <li><strong>Spare Tire and Tool Box:</strong> ○</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Electrical Features</h2>
-            <ul>
-                <li><strong>Front Frameless Wipers:</strong> ●</li>
-                <li><strong>Automatic Wipers:</strong> —</li>
-                <li><strong>Power Sunroof:</strong> —</li>
-                <li><strong>Panoramic Sunroof:</strong> —</li>
-                <li><strong>Built-in Antenna:</strong> ●</li>
-                <li><strong>Rear Fog Lights:</strong> ●</li>
-                <li><strong>Halogen Projector Headlights:</strong> ●</li>
-                <li><strong>LED Headlights:</strong> —</li>
-                <li><strong>Automatic Headlights:</strong> —</li>
-                <li><strong>Electric Headlight Height Adjustment:</strong> ●</li>
-                <li><strong>Reversing Lights:</strong> ●</li>
-                <li><strong>Headlight Delay-off:</strong> ●</li>
-                <li><strong>Daytime Running Lights:</strong> —</li>
-                <li><strong>LED High-level Brake Light:</strong> ●</li>
-                <li><strong>LED Tail Lights:</strong> ●</li>
-                <li><strong>LED Reading Lights:</strong> ●</li>
-                <li><strong>One-touch Start:</strong> ●</li>
-                <li><strong>Keyless Entry:</strong> ●</li>
-                <li><strong>7-inch LCD Instrument Panel:</strong> ●</li>
-                <li><strong>10.25-inch Full LCD Instrument Panel:</strong> —</li>
-                <li><strong>10.25-inch HD Touchscreen:</strong> ●</li>
-                <li><strong>Bluetooth Hands-free System:</strong> ●</li>
-                <li><strong>In-car WiFi:</strong> —</li>
-                <li><strong>Smart Cloud Voice Control (Media, Navigation, Phone, AC):</strong> —</li>
-                <li><strong>Smartphone Mirror Link (Baidu CarLife):</strong> ●</li>
-                <li><strong>Two Front USB Ports:</strong> ●</li>
-                <li><strong>Front 12V Power Supply:</strong> ●</li>
-                <li><strong>Single Rear USB Port:</strong> ●</li>
-                <li><strong>4 Speakers:</strong> ●</li>
-                <li><strong>6 Speakers:</strong> —</li>
-                <li><strong>Central Lock:</strong> ●</li>
-                <li><strong>Remote Key:</strong> ●</li>
-                <li><strong>Remote Trunk Release:</strong> ●</li>
-                <li><strong>Power Trunk Lock:</strong> ●</li>
-                <li><strong>Multi-vehicle Team Travel:</strong> —</li>
-                <li><strong>Vehicle Network Connection:</strong> —</li>
-                <li><strong>Real-time GPS Navigation:</strong> —</li>
-                <li><strong>Full Mobile Management:</strong> —</li>
-                <li><strong>OTA Updates (Smart Connectivity System):</strong> —</li>
-                <li><strong>App Remote Control:</strong> —</li>
-                <li><strong>ETC On-board Device:</strong> ○</li>
-            </ul>
+            <h2 class="section-title">Dimensions</h2>
+            <table>
+                <tr>
+                    <th>Dimension</th>
+                    <th>Value</th>
+                </tr>
+                <tr><td>Length</td><td>4400 mm</td></tr>
+                <tr><td>Width</td><td>1831 mm</td></tr>
+                <tr><td>Height</td><td>1646 mm</td></tr>
+                <tr><td>Wheelbase</td><td>2632 mm</td></tr>
+                <tr><td>Front Track</td><td>1551 mm</td></tr>
+                <tr><td>Rear Track</td><td>1563 mm</td></tr>
+                <tr><td>Curb Weight</td><td>1620 kg</td></tr>
+                <tr><td>Gross Weight</td><td>1995 kg</td></tr>
+                <tr><td>Turning Radius</td><td>5.4 m</td></tr>
+            </table>
         </section>
     </main>
     <footer>
+        <div class="footer-content">
+            <img src="footer-logo.jpg" alt="Footer Photo" class="footer-photo">
+            <div class="footer-links">
+                <a href="#privacy">Privacy & Agreement</a>
+                <a href="#partnership">Partnership</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
         <p>&copy; 2024 Hong Kong Sherry International Co., LTD. All rights reserved.</p>
     </footer>
 </body>
