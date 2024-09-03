@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hong Kong Sherry International Co., LTD</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the home page */
+        .partner-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(5, auto);
+            gap: 20px;
+            margin: 20px 0;
+            justify-items: center;
+            align-items: center;
+        }
+        .partner-grid img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .partner-section {
+            position: relative;
+            padding: 20px;
+            background-image: url('images/backgound.png');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,9 +39,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#about" class="nav-link">About Sherry</a></li>
-                    <li><a href="#products" class="nav-link">Products</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Sherry</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
             <div class="language-switcher">
@@ -26,124 +52,43 @@
         </div>
     </header>
     <main>
-        <!-- About Section -->
-        <section id="about" class="content en active">
-            <h2>About Us</h2>
-            <p>Sherry International is a group company specializing in the global automotive sales ecosystem. Based in Hong Kong SAR, China, the company aims to connect the automotive industry chain, building a global marketing network to become a major international player in automotive sales.</p>
-            <p>Sherry International has already established automotive marketing networks in multiple global markets and is rapidly expanding.</p>
-            <h3>Mission</h3>
-            <p>Sherry International is dedicated to creating a new ecosystem for overseas automotive marketing, becoming a model enterprise for Chinese auto sales abroad.</p>
-            <h3>Vision</h3>
-            <p>To become an innovation-driven leader in the overseas automotive marketing ecosystem.</p>
-            <h3>Values</h3>
-            <p>Integrity, Innovation, Focus, Craftsmanship.</p>
-        </section>
-        <section id="about" class="content zh">
-            <h2>关于我们</h2>
-            <p>Sherry International 是一家专注于全球汽车销售生态系统的集团公司，总部位于中国香港特别行政区。公司旨在连接汽车产业链，建立全球营销网络，成为国际汽车销售的重要参与者。</p>
-            <p>Sherry International 已在多个全球市场建立了汽车营销网络，并正在快速扩展。</p>
-            <h3>公司使命</h3>
-            <p>Sherry International 致力于为海外汽车营销创建一个新生态系统，成为中国汽车在海外销售的典范企业。</p>
-            <h3>愿景</h3>
-            <p>成为海外汽车营销生态系统中的创新驱动领导者。</p>
-            <h3>价值观</h3>
-            <p>诚信、创新、专注、工匠精神。</p>
-        </section>
-
-        <!-- Products Section -->
-        <section id="products" class="content en">
-            <h2>Company Products</h2>
-            <div class="carousel">
-                <div class="carousel-item">
-                    <img src="images/KAIYI3.webp" alt="Kaiyi EV" class="product-photo">
-                    <p>Kaiyi EV</p>
-                    <a href="kaiyi-ev-config.html" class="product-link">View Configurations</a>
+        <section class="partner-section">
+            <section id="home" class="content en active">
+                <h2>Strategic Partners</h2>
+                <div class="partner-grid">
+                    <img src="images/BYD.webp" alt="Partner 1">
+                    <img src="images/chery.jpg" alt="Partner 2">
+                    <img src="images/changan.jpg" alt="Partner 3">
+                    <img src="images/Jetour.jpg" alt="Partner 4">
+                    <img src="images/GAC.png" alt="Partner 5">
+                    <img src="images/MG.png" alt="Partner 6">
+                    <img src="images/NETA.png" alt="Partner 7">
+                    <img src="images/AITO.png" alt="Partner 8">
+                    <img src="images/LI.jpg" alt="Partner 9">
+                    <img src="images/xpeng.jpg" alt="Partner 10">
+                    <img src="images/NIO.png" alt="Partner 11">
+                    <img src="images/ICar.png" alt="Partner 12">
+                    <img src="images/GELLY.jpg" alt="Partner 13">
                 </div>
-                <div class="carousel-item">
-                    <img src="images/Tiggo 7 Plus (3).webp" alt="Cherry Tiggo 7 Plus" class="product-photo">
-                    <p>Cherry Tiggo 7 Plus</p>
-                    <a href="tiggo-7-plus-config.html" class="product-link">View Configurations</a>
+            </section>
+            <section id="home" class="content zh">
+                <h2>战略合作伙伴</h2>
+                <div class="partner-grid">
+                    <img src="images/AITO.png" alt="合作伙伴 1">
+                    <img src="images/BYD.webp" alt="合作伙伴 2">
+                    <img src="images/changan.jpg" alt="合作伙伴 3">
+                    <img src="images/Jetour.jpg" alt="合作伙伴 4">
+                    <img src="images/GAC.png" alt="合作伙伴 5">
+                    <img src="images/MG.png" alt="合作伙伴 6">
+                    <img src="images/NETA.png" alt="合作伙伴 7">
+                    <img src="images/LI.jpg" alt="合作伙伴 8">
+                    <img src="images/xpeng.jpg" alt="合作伙伴 9">
+                    <img src="images/NIO.png" alt="合作伙伴 10">
+                    <img src="images/ICar.png" alt="合作伙伴 11">
+                    <img src="images/GELLY.jpg" alt="合作伙伴 12">
+                    <img src="images/chery.jpg" alt="合作伙伴 13">
                 </div>
-                <div class="carousel-item">
-                    <img src="images/Tiggo 8.webp" alt="Cherry Tiggo 8" class="product-photo">
-                    <p>Cherry Tiggo 8</p>
-                    <a href="tiggo-8-config.html" class="product-link">View Configurations</a>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/X70 Plus.webp" alt="Jetour X70 Plus" class="product-photo">
-                    <p>Jetour X70 Plus</p>
-                    <a href="x70-plus-config.html" class="product-link">View Configurations</a>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/X90 Plus.webp" alt="Jetour X90 Plus" class="product-photo">
-                    <p>Jetour X90 Plus</p>
-                    <a href="x90-plus-config.html" class="product-link">View Configurations</a>
-                </div>
-            </div>
-        </section>
-        <section id="products" class="content zh">
-            <h2>公司产品</h2>
-            <div class="carousel">
-                <div class="carousel-item">
-                    <img src="images/KAIYI3.webp" alt="Kaiyi EV" class="product-photo">
-                    <p>Kaiyi EV</p>
-                    <a href="kaiyi-ev-config.html" class="product-link">查看配置</a>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/Tiggo 7 Plus (3).webp" alt="Cherry Tiggo 7 Plus" class="product-photo">
-                    <p>Cherry Tiggo 7 Plus</p>
-                    <a href="tiggo-7-plus-config.html" class="product-link">查看配置</a>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/Tiggo 8.webp" alt="Cherry Tiggo 8" class="product-photo">
-                    <p>Cherry Tiggo 8</p>
-                    <a href="tiggo-8-config.html" class="product-link">查看配置</a>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/X70 Plus.webp" alt="Jetour X70 Plus" class="product-photo">
-                    <p>Jetour X70 Plus</p>
-                    <a href="x70-plus-config.html" class="product-link">查看配置</a>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/X90 Plus.webp" alt="Jetour X90 Plus" class="product-photo">
-                    <p>Jetour X90 Plus</p>
-                    <a href="x90-plus-config.html" class="product-link">查看配置</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="content en">
-            <h2>Contact Us</h2>
-            <p><strong>Address:</strong> A4 Building, Wanjiang Wealth Plaza, No. 88 Ruixiang Road, Jiujiang District, Wuhu City, Anhui Province</p>
-            <p><strong>Email:</strong> <a href="mailto:zidaneyang@sherryhk.com">zidaneyang@sherryhk.com</a></p>
-            <p><strong>Phone:</strong> +8618774006797</p>
-            <form id="contact-form">
-                <h3>Contact Form</h3>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-        <section id="contact" class="content zh">
-            <h2>联系方式</h2>
-            <p><strong>地址:</strong> 安徽省芜湖市九江区瑞祥路88号万江财富广场A4栋</p>
-            <p><strong>电子邮件:</strong> <a href="mailto:zidaneyang@sherryhk.com">zidaneyang@sherryhk.com</a></p>
-            <p><strong>电话:</strong> +8618774006797</p>
-            <form id="contact-form">
-                <h3>联系表单</h3>
-                <label for="name">姓名:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">邮箱:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">留言:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <button type="submit">提交</button>
-            </form>
+            </section>
         </section>
     </main>
     <footer>
@@ -152,7 +97,7 @@
             <div class="footer-links">
                 <a href="#privacy">Privacy & Policy</a>
                 <a href="#partnership">Partnership</a>
-                <a href="#contact">Contact</a>
+                <a href="contact.html">Contact</a>
             </div>
         </div>
         <p>&copy; 2024 Hong Kong Sherry International Co., LTD. All rights reserved.</p>

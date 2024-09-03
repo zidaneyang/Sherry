@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Hong Kong Sherry International Co., LTD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button id="en-btn">English</button>
+                <button id="zh-btn">中文</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- About Us Section (English) -->
+        <section id="about-en" class="content en active">
+            <h2>About Us</h2>
+            <p>Hong Kong Sherry International Co., LTD is a group company based in Hong Kong SAR, China, with its operations primarily focused on the global automotive sales ecosystem. We are dedicated to connecting the automotive industry chain, building a robust global marketing network, and becoming a significant international player in automotive sales.</p>
+            <h3>Our Mission</h3>
+            <p>Our mission is to empower Chinese automotive brands to expand their presence in overseas markets through strategic partnerships, local sales network development, and a strong focus on new energy vehicle exports.</p>
+            <h3>Core Business Strategies</h3>
+            <ul>
+                <li><strong>Brand Representation:</strong> Establishing and promoting Chinese automotive brands in international markets.</li>
+                <li><strong>End-to-End Distribution:</strong> Building comprehensive sales and distribution networks to support our partners' growth.</li>
+                <li><strong>New Energy Vehicles:</strong> Focusing on the export and global promotion of environmentally-friendly vehicles.</li>
+            </ul>
+            <h3>Our Vision</h3>
+            <p>We envision a future where Sherry International becomes a leading force in the global automotive industry, driving innovation and sustainability across the automotive value chain.</p>
+        </section>
+
+        <!-- 关于我们部分 (Chinese) -->
+        <section id="about-zh" class="content zh">
+            <h2>关于我们</h2>
+            <p>香港 Sherry 国际有限公司是一家总部位于中国香港特别行政区的集团公司，其主要业务聚焦于全球汽车销售生态系统。我们致力于连接汽车产业链，建立强大的全球营销网络，成为汽车销售领域的重要国际参与者。</p>
+            <h3>我们的使命</h3>
+            <p>我们的使命是通过战略合作伙伴关系、当地销售网络的发展，以及对新能源汽车出口的高度重视，助力中国汽车品牌拓展海外市场。</p>
+            <h3>核心业务策略</h3>
+            <ul>
+                <li><strong>品牌代理:</strong> 在国际市场上建立并推广中国汽车品牌。</li>
+                <li><strong>端到端分销:</strong> 构建全面的销售和分销网络，支持我们合作伙伴的增长。</li>
+                <li><strong>新能源汽车:</strong> 专注于环保汽车的出口和全球推广。</li>
+            </ul>
+            <h3>我们的愿景</h3>
+            <p>我们展望未来，Sherry 国际将成为全球汽车行业的领先力量，在整个汽车价值链中推动创新和可持续发展。</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <img src="images/footer-logo.jpg" alt="Footer Photo" class="footer-photo">
+            <div class="footer-links">
+                <a href="#privacy">Privacy & Policy</a>
+                <a href="#partnership">Partnership</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Hong Kong Sherry International Co., LTD. All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript to handle language switching
+        document.getElementById('en-btn').addEventListener('click', function() {
+            document.getElementById('about-en').classList.add('active');
+            document.getElementById('about-zh').classList.remove('active');
+        });
+
+        document.getElementById('zh-btn').addEventListener('click', function() {
+            document.getElementById('about-en').classList.remove('active');
+            document.getElementById('about-zh').classList.add('active');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Hong Kong Sherry International Co., LTD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="images/Sherry.jpg" alt="Company Logo" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="about.html" class="nav-link">About Sherry</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <button id="en-btn">English</button>
+                <button id="zh-btn">中文</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Contact Section -->
+        <section id="contact" class="content en active">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> A4 Building, Wanjiang Wealth Plaza, No. 88 Ruixiang Road, Jiujiang District, Wuhu City, Anhui Province</p>
+            <p><strong>Email:</strong> <a href="mailto:zidaneyang@sherryhk.com">zidaneyang@sherryhk.com</a></p>
+            <p><strong>Phone:</strong> +8618774006797</p>
+            <h3>Contact Form</h3>
+            <form id="contact-form" action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section id="contact" class="content zh">
+            <h2>联系我们</h2>
+            <p><strong>地址:</strong> 安徽省芜湖市九江区瑞祥路88号万江财富广场A4楼</p>
+            <p><strong>电子邮件:</strong> <a href="mailto:zidaneyang@sherryhk.com">zidaneyang@sherryhk.com</a></p>
+            <p><strong>电话:</strong> +8618774006797</p>
+            <h3>联系表单</h3>
+            <form id="contact-form" action="submit_form.php" method="post">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">电子邮件:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">留言:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">发送留言</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <img src="images/footer-logo.jpg" alt="Footer Photo" class="footer-photo">
+            <div class="footer-links">
+                <a href="#privacy">Privacy & Policy</a>
+                <a href="#partnership">Partnership</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Hong Kong Sherry International Co., LTD. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
