@@ -1,282 +1,177 @@
+/* General styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Light grey background */
-    color: #333;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
+}
+
+.header-container, .footer-content, .carousel, #contact-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 header {
-    background: linear-gradient(135deg, #003d5b, #007bff);
-    color: white;
-    padding: 10px 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    border-bottom: 4px solid #007bff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
 }
 
-.header-container {
+header .header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .logo-container {
     flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.logo {
-    width: 80px; /* Adjusted size */
-    opacity: 0.9;
 }
 
 nav {
     flex: 2;
-    display: flex;
-    justify-content: center;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    list-style: none;
     display: flex;
-    gap: 30px;
+    justify-content: space-around;
 }
 
 nav ul li {
-    margin: 0;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #ffdd00;
-}
-
-.contact-info {
+.language-switcher {
     flex: 1;
     text-align: right;
 }
 
-.contact-info p a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s ease;
+.language-switcher button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
 }
 
-.contact-info p a:hover {
-    color: #ffdd00;
+.language-switcher button:hover {
+    background-color: #777;
+}
+
+.logo {
+    max-height: 50px;
 }
 
 main {
-    margin-top: 80px; /* Adjust for fixed header */
-    padding: 20px;
+    padding: 20px 0;
 }
 
-section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
 }
 
 .carousel {
     display: flex;
     overflow-x: auto;
-    padding: 10px;
-    scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    gap: 10px;
 }
 
 .carousel-item {
     flex: 0 0 auto;
-    width: 250px;
-    margin-right: 15px;
-    background-color: #fff;
-    color: #333;
-    text-align: center;
     scroll-snap-align: start;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
 }
 
 .product-photo {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    border-radius: 8px;
-}
-
-.carousel-item p {
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-#contact-form {
-    margin-top: 20px;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-#contact-form label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-#contact-form input,
-#contact-form textarea {
-    width: 100%;
-    padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
 }
 
-#contact-form button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+.product-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
 }
 
-#contact-form button:hover {
-    background-color: #0056b3;
+.product-link:hover {
+    text-decoration: underline;
 }
 
 footer {
-    background: linear-gradient(135deg, #003d5b, #007bff);
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-top: 4px solid #007bff;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
 }
 
 .footer-content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .footer-photo {
-    width: 80px;
-    height: auto;
-    margin-right: 20px;
+    max-height: 50px;
 }
 
 .footer-links a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     margin-left: 20px;
-    font-size: 14px;
-    transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #ffdd00;
+    text-decoration: underline;
 }
 
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 24px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+#contact-form {
+    margin-top: 20px;
 }
 
-.back-to-top:hover {
-    background-color: #0056b3;
+#contact-form h3 {
+    margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
-    .header-container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-
-    .logo {
-        width: 60px; /* Adjusted size */
-    }
-
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-links {
-        margin-top: 10px;
-    }
-}
-
-/* Language Switcher Styles */
-.language-switcher {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    gap: 10px;
-    z-index: 1000;
-}
-
-.language-switcher button {
-    padding: 5px 10px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-.language-switcher button:hover {
-    background-color: #0056b3;
-}
-
-/* Hide content by default */
-.content {
-    display: none;
-}
-
-/* Display content for the selected language */
-.content.en.active {
+#contact-form label {
     display: block;
+    margin-bottom: 5px;
 }
 
-.content.zh.active {
-    display: block;
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
 }

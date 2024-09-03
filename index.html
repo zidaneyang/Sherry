@@ -5,86 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hong Kong Sherry International Co., LTD</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .content {
-            display: none;
-        }
-        .content.en.active, .content.zh.active {
-            display: block;
-        }
-        .language-switcher {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background-color: #333;
-            padding: 10px;
-            border-radius: 5px;
-            color: #fff;
-            z-index: 1000;
-        }
-        .language-switcher button {
-            background-color: #444;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px;
-            margin: 0 5px;
-            cursor: pointer;
-        }
-        .language-switcher button:hover {
-            background-color: #555;
-        }
-        .footer-links a {
-            margin-right: 10px;
-        }
-        .back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            padding: 10px;
-            cursor: pointer;
-        }
-        .back-to-top:hover {
-            background-color: #555;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about" class="nav-link">About Sherry</a></li>
-                <li><a href="#products" class="nav-link">Products</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </nav>
-        <img src="images/Sherry.jpg" alt="Company Logo" class="logo">
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="images/Sherry.jpg" alt="Company Logo" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link">About Sherry</a></li>
+                    <li><a href="#products" class="nav-link">Products</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <button id="en-btn">English</button>
+                <button id="zh-btn">中文</button>
+            </div>
+        </div>
     </header>
-    <div class="language-switcher">
-        <button id="en-btn">English</button>
-        <button id="zh-btn">中文</button>
-    </div>
     <main>
         <!-- About Section -->
         <section id="about" class="content en active">
             <h2>About Us</h2>
             <p>Sherry International is a group company specializing in the global automotive sales ecosystem. Based in Hong Kong SAR, China, the company aims to connect the automotive industry chain, building a global marketing network to become a major international player in automotive sales.</p>
             <p>Sherry International has already established automotive marketing networks in multiple global markets and is rapidly expanding.</p>
-
             <h3>Mission</h3>
             <p>Sherry International is dedicated to creating a new ecosystem for overseas automotive marketing, becoming a model enterprise for Chinese auto sales abroad.</p>
-
             <h3>Vision</h3>
             <p>To become an innovation-driven leader in the overseas automotive marketing ecosystem.</p>
-
             <h3>Values</h3>
             <p>Integrity, Innovation, Focus, Craftsmanship.</p>
         </section>
@@ -92,13 +42,10 @@
             <h2>关于我们</h2>
             <p>Sherry International 是一家专注于全球汽车销售生态系统的集团公司，总部位于中国香港特别行政区。公司旨在连接汽车产业链，建立全球营销网络，成为国际汽车销售的重要参与者。</p>
             <p>Sherry International 已在多个全球市场建立了汽车营销网络，并正在快速扩展。</p>
-
             <h3>公司使命</h3>
             <p>Sherry International 致力于为海外汽车营销创建一个新生态系统，成为中国汽车在海外销售的典范企业。</p>
-
             <h3>愿景</h3>
             <p>成为海外汽车营销生态系统中的创新驱动领导者。</p>
-
             <h3>价值观</h3>
             <p>诚信、创新、专注、工匠精神。</p>
         </section>
@@ -210,31 +157,6 @@
         </div>
         <p>&copy; 2024 Hong Kong Sherry International Co., LTD. All rights reserved.</p>
     </footer>
-    <button class="back-to-top" id="back-to-top">Back to Top</button>
-
-    <script>
-        document.getElementById('en-btn').addEventListener('click', function () {
-            document.querySelectorAll('.content').forEach(section => section.classList.remove('active'));
-            document.querySelectorAll('.en').forEach(section => section.classList.add('active'));
-        });
-
-        document.getElementById('zh-btn').addEventListener('click', function () {
-            document.querySelectorAll('.content').forEach(section => section.classList.remove('active'));
-            document.querySelectorAll('.zh').forEach(section => section.classList.add('active'));
-        });
-
-        document.getElementById('back-to-top').addEventListener('click', function () {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-
-        window.addEventListener('scroll', function () {
-            const backToTopButton = document.getElementById('back-to-top');
-            if (window.scrollY > 300) {
-                backToTopButton.style.display = 'block';
-            } else {
-                backToTopButton.style.display = 'none';
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
